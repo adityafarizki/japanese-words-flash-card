@@ -44,6 +44,7 @@ def main(args: argparse.Namespace):
     print(f"  correct: {correct}")
     print(f"  wrong: {wrong}")
     print(f"  correct percentage: {(correct/(correct + wrong)) * 100}%")
+    input()
 
 
 def load_level_word_list(level: int) -> List[Word]:
